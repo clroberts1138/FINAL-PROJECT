@@ -176,7 +176,7 @@ namespace FINALPROJECT
         }
 
         public GadgetLarge(long SerialNumber, long UPCNumber)
-            : this(WidgetColor.Unpainted, GadgetColor.Unpainted, GadgetPower.Battery, SerialNumber, UPCNumber)
+            : this(WidgetColor.Unpainted, GadgetColor.Unpainted, GadgetPower.Generator, SerialNumber, UPCNumber)
         {
             //  Console.WriteLine("This is where we build the Widgets for Large Gadget");
             List<WidgetSmall> mySmallWidgets = new List<WidgetSmall>();
