@@ -62,7 +62,7 @@
     <Compile Include="GadgetCustomizer\AbstractGadgetOptions.cs" />
     <Compile Include="GadgetCustomizer\CustomButton.cs" />
     <Compile Include="GadgetCustomizer\CustomLights.cs" />
-    <Compile Include="GadgetCustomizer\CustomOutput.cs" />
+    <Compile Include="GadgetCustomizer\WareHouseOutput.cs" />
     <Compile Include="GadgetCustomizer\CustomSwitches.cs" />
     <Compile Include="GadgetCustomizer\RetailOutput.cs" />
     <Compile Include="Program.cs" />

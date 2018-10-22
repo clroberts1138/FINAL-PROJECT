@@ -419,7 +419,7 @@ namespace FINALPROJECT
             cfooter.AppendLine();
             cfooter.AppendFormat("*   Total Warehouse Gadget info ");
             cfooter.AppendLine();
-            cfooter.AppendFormat("*   Total Custom Medium Gadget info ");
+            cfooter.AppendFormat("*   Total Medium Gadget info        ");
             cfooter.AppendLine();
             cfooter.AppendFormat("*   Total Medium Gadgets Ordered:               {0}", _cmediumGadgetsOrdered);
             cfooter.AppendLine();
@@ -438,7 +438,7 @@ namespace FINALPROJECT
             cfooter.AppendLine();
             cfooter.AppendFormat("*");
             cfooter.AppendLine();
-            cfooter.AppendFormat("*   Total Custom Large Gadget info ");
+            cfooter.AppendFormat("*   Total Large Gadget info        ");
             cfooter.AppendLine();
             cfooter.AppendFormat("*   Total Large Gadgets Ordered:                {0}", _clargeGadgetsOrdered);
             cfooter.AppendLine();

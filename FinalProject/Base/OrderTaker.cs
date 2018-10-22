@@ -79,7 +79,7 @@ namespace FINALPROJECT
                 mainMenu.AppendLine();
                 mainMenu.AppendFormat("*");
                 mainMenu.AppendFormat("                                                                                      ");
-                mainMenu.AppendFormat("  2  - Custom Gadget Simulator");
+                mainMenu.AppendFormat("  2  - Warehouse Gadget Simulator");
                 mainMenu.AppendFormat("                                                                                            ");
                 mainMenu.AppendFormat("*");
                 mainMenu.AppendLine();
@@ -123,7 +123,7 @@ namespace FINALPROJECT
                         ProcessRetailOrder();
                         break;
                     case '2':
-                        ProcessCustomOrder();
+                        ProcessWarehouseOrder();
                         break;
                     case 'Q':
                     case 'q':
@@ -162,7 +162,7 @@ namespace FINALPROJECT
             RetailOutput retailReceipt = new RetailOutput(myGadgets);
 
         }
-        private static void ProcessCustomOrder()
+        private static void ProcessWarehouseOrder()
         {
 
             UPCNumber upcNumber = new UPCNumber();
