@@ -417,7 +417,7 @@ namespace FINALPROJECT
             cfooter.AppendLine();
             cfooter.AppendFormat("*   Order Summary:");
             cfooter.AppendLine();
-            cfooter.AppendFormat("*   Total Warehouse Gadget info ");
+            cfooter.AppendFormat("*   Total WholeSale Gadget info ");
             cfooter.AppendLine();
             cfooter.AppendFormat("*   Total Medium Gadget info        ");
             cfooter.AppendLine();
