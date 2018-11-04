@@ -46,7 +46,7 @@ namespace FINALPROJECT
         {
             set
             {
-                this._gadgetPower = value;
+                this._gadgetPower = GadgetPower.Battery;
             }
             get
             {
@@ -214,10 +214,18 @@ namespace FINALPROJECT
                 myMediumWidgets.Add(new WidgetMedium(widgetcolor));
             }
             this._gadgetColor = gadgetcolor;
-            this._gadgetPower = power;
             this._widgetColor = widgetcolor;
             this._upcNumber = UPCNumber;
             this._serialNumber = SerialNumber;
+
+            if (power == GadgetPower.Generator || power == GadgetPower.Solar)
+            {
+                this._gadgetPower = GadgetPower.Battery;
+            }
+            else
+            {
+                this._gadgetPower = power;
+            }
         }
 
     }

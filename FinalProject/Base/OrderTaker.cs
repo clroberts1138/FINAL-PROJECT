@@ -123,7 +123,7 @@ namespace FINALPROJECT
                         ProcessRetailOrder();
                         break;
                     case '2':
-                        ProcessWarehouseOrder();
+                        ProcessWholeSaleOrder();
                         break;
                     case 'Q':
                     case 'q':
@@ -162,7 +162,7 @@ namespace FINALPROJECT
             RetailOutput retailReceipt = new RetailOutput(myGadgets);
 
         }
-        private static void ProcessWarehouseOrder()
+        private static void ProcessWholeSaleOrder()
         {
 
             UPCNumber upcNumber = new UPCNumber();

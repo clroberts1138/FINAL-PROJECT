@@ -61,6 +61,10 @@ namespace FINALPROJECT
             set
             {
                 this._gadgetPower = value;
+                if (_gadgetPower == GadgetPower.Generator)
+                {
+                    this._gadgetPower = GadgetPower.Battery;
+                }
             }
             get
             {
@@ -224,10 +228,17 @@ namespace FINALPROJECT
                 myLargeWidgets.Add(new WidgetLarge(widgetcolor));
             }
             this._gadgetColor = gadgetcolor;
-            this._gadgetPower = power;
             this._widgetColor = widgetcolor;
             this._upcNumber = UPCNumber;
             this._serialNumber = SerialNumber;
+            if (power == GadgetPower.Generator)
+            {
+                this._gadgetPower = GadgetPower.Battery;
+            }
+            else
+            {
+                this._gadgetPower = power;
+            }
         }
     }
 }
